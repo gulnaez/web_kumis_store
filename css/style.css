@@ -1,0 +1,205 @@
+
+@media screen and (min-width: 768px){
+  html{
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width:1024px){
+  html{
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  html{
+    font-size: 130%;
+  }
+}
+
+.body-shadow {
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2)
+}
+ #mainTitle{
+  font-size:2.5rem;
+}
+
+
+.card mb-3 {
+  background-color: cornsilk;
+}
+
+.carousel-item img {
+  height: 575px;
+}
+
+
+/* new */
+.container-fluid{
+  padding: 3% 15% 15% 15%;
+}
+
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Download Buttons */
+
+.title-img {
+  width: 80%;
+  transform: rotate(3deg);
+  margin-left: 60px;
+  padding: 5%;
+}
+
+
+.heading1 {
+  color: black;
+}
+
+.heading1 span {
+  color: saddlebrown;
+}
+.about {
+  margin: auto;
+}
+.about .row {
+  display: flex;
+  align-items: center;
+  background-color: cornsilk;
+}
+
+.about .row .content {
+  padding: 2rem;
+}
+
+
+.button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding:0.9rem 3rem;
+  font-size: 1rem;
+  color: white;
+  background-color: saddlebrown;
+}
+
+
+/* NEW  */
+#menu {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.menu-box {
+  padding: 5%;
+}
+
+
+/* new products  */
+
+.product-img {
+  height: 260px;
+}
+.product-div {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+#product-heading {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+
+/* order section  */
+#order {
+  margin: 5%;
+}
+
+.order-text{
+  font-weight: bold;
+}
+
+.buy-button {
+  text-align: center;
+  margin: 3% 5% 0 0;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+input[type=text]{
+  width: 80%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: saddlebrown;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+}
+
+/* footer  */
+
+footer {
+  background-color: burlywood;
+
+}
+.copy {
+  padding-top: 30px;
+}
+
+.fooer-text {
+  font-size: 1rem;
+  text-decoration-color: #000;
+  color: #000;
+}
+
+
+.ml16 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
